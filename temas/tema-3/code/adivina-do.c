@@ -11,7 +11,7 @@ int main() {
     do {
         guess = (low + high) / 2;
         printf("¿Es tu número %d? ", guess);
-        scanf(" %c", &response);  // Espacio inicial para ignorar caracteres previos
+        scanf(" %c", &response);  // Espacio inicial para ignorar caracteres previos. En la máscara %d hay que ponerle un espacio antes para ignorar la basura en el pc.
 
         if (response == 'M') {
             low = guess + 1;
