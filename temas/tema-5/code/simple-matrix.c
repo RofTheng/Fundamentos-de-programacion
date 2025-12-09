@@ -3,7 +3,7 @@
 int main()
 {
   // Se declara la matriz (array de dos dimensiones)
-  int m[5][5] = {
+  int m[12][12] = {
                   {2, 3, 5, 4, 1},
                   {6, 1, 3, 8, 7}
                 };
