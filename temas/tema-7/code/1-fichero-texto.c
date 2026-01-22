@@ -11,10 +11,10 @@ int main() {
         return 1;
     }
 
-    // 2. Escribir una línea de texto
+    // 2. Escribir una línea de texto: párrafo a insertar.
     fprintf(fichero, "En un lugar de la Mancha, de cuyo nombre no quiero acordarme,\n");
 
-    // 3. Escribir un párrafo de texto
+    // 3. Escribir un párrafo de texto: otro párrafo a insertar.
     fprintf(fichero, "no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. "
                      "Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, "
                      "lentejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda.\n");
