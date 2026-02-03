@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
+  <diagram name="Page-1" id="fWzd9awG_gRRllMiBRT7">
+    <mxGraphModel dx="4610" dy="2206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="8000" pageHeight="8000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i2sGOPbU-zkcskL_saxj-31" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="1285" width="1285" x="70" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-3" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i2sGOPbU-zkcskL_saxj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="INICIO" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-5" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="i2sGOPbU-zkcskL_saxj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CASTILLO = 100" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-7" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i2sGOPbU-zkcskL_saxj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="STRUCT DEFENSAS (MURALLA = 5, ARQUEROS =10, ACEITE = 15)" vertex="1">
+          <mxGeometry height="60" width="335" x="552.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-9" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i2sGOPbU-zkcskL_saxj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="IF (I = 0; I &amp;lt;5 || castillo == 0; I++)" vertex="1">
+          <mxGeometry height="110" width="180" x="630" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-13" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i2sGOPbU-zkcskL_saxj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ATAQUE ENEMIGO = RAND (10 - 30)" vertex="1">
+          <mxGeometry height="60" width="240" x="600" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-15" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i2sGOPbU-zkcskL_saxj-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="SCANF (DEFENSA DE PLAYER)" vertex="1">
+          <mxGeometry height="60" width="230" x="605" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-17" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i2sGOPbU-zkcskL_saxj-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CALCULO DEL DAÑO&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DEFENSA DE PLAYER - ATAQUE ENEMIGO = DAÑO FINAL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="580" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-19" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i2sGOPbU-zkcskL_saxj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="IF (DAÑO FINAL &amp;lt; 0)" vertex="1">
+          <mxGeometry height="110" width="170" x="635" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-21" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i2sGOPbU-zkcskL_saxj-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VIDA CASTILLO + DAÑO FINAL" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-23" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-20" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="PRINTF&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;El araque enemigo fue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;La defensa elegida fue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;El daño recibido fue&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;La vida del castillo es&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="290" width="210" x="615" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-26" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i2sGOPbU-zkcskL_saxj-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-28" edge="1" parent="1" source="i2sGOPbU-zkcskL_saxj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i2sGOPbU-zkcskL_saxj-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-24" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="if castillo == 0" vertex="1">
+          <mxGeometry height="90" width="130" x="655" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-25" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="el castillo ha resistido" vertex="1">
+          <mxGeometry height="60" width="120" x="535" y="2140" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-27" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="el castillo ha sido destruido" vertex="1">
+          <mxGeometry height="60" width="120" x="805" y="2140" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="true" vertex="1">
+          <mxGeometry height="30" width="60" x="825" y="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="i2sGOPbU-zkcskL_saxj-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="false" vertex="1">
+          <mxGeometry height="30" width="60" x="595" y="2030" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
