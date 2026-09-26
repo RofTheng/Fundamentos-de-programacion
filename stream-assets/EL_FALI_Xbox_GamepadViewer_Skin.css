@@ -1,0 +1,20 @@
+/* EL FALI - Xbox Gamepad Viewer skin */
+html, body { background: transparent !important; margin: 0 !important; padding: 0 !important; overflow: hidden !important; }
+.controller.xbox, .controller.xboxone, .xbox { filter: drop-shadow(0 0 8px rgba(168,86,255,.75)) drop-shadow(0 0 22px rgba(86,220,255,.28)); }
+.controller.xbox, .controller.xboxone { background-color: #151021 !important; border-radius: 90px !important; }
+.xbox .quadrant, .xboxone .quadrant { filter: drop-shadow(0 0 5px rgba(188,99,255,.95)) drop-shadow(0 0 12px rgba(74,225,255,.45)); }
+.xbox .button, .xboxone .button { border-radius: 50% !important; box-shadow: inset 0 0 8px rgba(255,255,255,.12), 0 0 5px rgba(169,82,255,.65) !important; }
+.xbox .button.pressed, .xboxone .button.pressed { filter: brightness(1.55) drop-shadow(0 0 8px #b86cff) drop-shadow(0 0 18px rgba(82,235,255,.8)); transform: scale(1.06); }
+.xbox .a, .xboxone .a { background-color: #64e8ff !important; color: #111 !important; }
+.xbox .b, .xboxone .b { background-color: #ff4fcf !important; color: #111 !important; }
+.xbox .x, .xboxone .x { background-color: #a970ff !important; color: #111 !important; }
+.xbox .y, .xboxone .y { background-color: #ffe45b !important; color: #111 !important; }
+.xbox .dpad, .xboxone .dpad { filter: drop-shadow(0 0 5px rgba(168,86,255,.7)); }
+.xbox .face.pressed, .xboxone .face.pressed { filter: brightness(1.6) drop-shadow(0 0 8px #9b5cff); }
+.xbox .stick, .xboxone .stick { filter: drop-shadow(0 0 5px rgba(88,220,255,.65)) drop-shadow(0 0 12px rgba(163,86,255,.45)); }
+.xbox .stick.pressed, .xboxone .stick.pressed { filter: brightness(1.35) drop-shadow(0 0 9px #64e8ff) drop-shadow(0 0 18px #a970ff); }
+.xbox .bumper, .xboxone .bumper { filter: drop-shadow(0 0 6px rgba(168,86,255,.75)); }
+.xbox .bumper.pressed, .xboxone .bumper.pressed { filter: brightness(1.45) drop-shadow(0 0 10px #b86cff); }
+.xbox .trigger, .xboxone .trigger { filter: drop-shadow(0 0 6px rgba(88,220,255,.55)); }
+.xbox .back.pressed, .xbox .start.pressed, .xboxone .back.pressed, .xboxone .start.pressed { filter: brightness(1.5) drop-shadow(0 0 8px #64e8ff); }
+.controller.xbox::after, .controller.xboxone::after { content: ""; position: absolute; inset: 0; pointer-events: none; border-radius: inherit; box-shadow: inset 0 0 0 2px rgba(177,99,255,.30), inset 0 0 35px rgba(113,66,255,.12); }
